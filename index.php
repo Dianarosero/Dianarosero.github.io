@@ -74,6 +74,9 @@
       <!--<a href="about.html" class="btn-about">About Me</a>-->
     </div>
   </section><!-- End Hero -->
+
+
+  
   <form method="post">
     	<h1>¡Suscribete!</h1>
     	<input type="text" name="name" placeholder="Nombre completo">
