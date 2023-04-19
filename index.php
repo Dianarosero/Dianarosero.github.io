@@ -27,12 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Kelly - v4.10.0
-  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -47,10 +42,11 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="index.html">Inicio</a></li>
-          <!--<li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a class="active" href="index.html" target="_blank">About me</a></li>
+          <li><a href="my_background.html" target="_blank"> My background</a></li>
+          <li><a href="my_proyects.html" target="_blank">My proyects</a></li>
+          <li><a href="my_experience.html" target="_blank">My experience</a></li>
+          <!--<li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>-->
         </ul>
@@ -58,11 +54,11 @@
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
-        <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+        <a href="https://twitter.com/?lang=es" class="twitter"><i class="bi bi-twitter" target="_blank"></i></a>
+        <a href="https://es-la.facebook.com/" class="facebook"><i class="bi bi-facebook" target="_blank"></i></a>
         <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
-        <a href="https://github.com/Dianarosero" class="github"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/diana-sofia-rosero-l%C3%B3pez-044150207/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://github.com/Dianarosero" class="github" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/diana-sofia-rosero-l%C3%B3pez-044150207/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></i></a>
       </div>
 
     </div>
