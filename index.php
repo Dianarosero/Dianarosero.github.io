@@ -78,6 +78,19 @@
       <!--<a href="about.html" class="btn-about">About Me</a>-->
     </div>
   </section><!-- End Hero -->
+  <form method="post">
+    	<h1>¡Suscribete!</h1>
+    	<input type="text" name="name" placeholder="Nombre completo">
+    	<input type="email" name="email" placeholder="Email">
+    	<input type="submit" name="register">
+    </form>
+        <?php 
+        include("registrar.php");
+        ?>
+
+
+
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
