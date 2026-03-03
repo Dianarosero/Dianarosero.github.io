@@ -7,7 +7,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    base: './', // Use relative paths for assets to work on GitHub Pages sub-directories
+    base: '/', // Use absolute paths for GitHub Pages user repository (dianarosero.github.io)
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
