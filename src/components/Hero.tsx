@@ -1,9 +1,12 @@
-import { motion } from 'motion/react';
-import { Download, Mail, ArrowRight } from 'lucide-react';
+import { motion } from "motion/react";
+import { Download, Mail, ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="inicio" className="min-h-screen flex items-center pt-20 relative overflow-hidden">
+    <section
+      id="inicio"
+      className="min-h-screen flex items-center pt-20 relative overflow-hidden"
+    >
       {/* Background Glow */}
       <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-[120px] -z-10" />
       <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px] -z-10" />
@@ -15,7 +18,7 @@ export default function Hero() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -23,18 +26,19 @@ export default function Hero() {
           >
             Disponible para nuevos proyectos
           </motion.span>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
             Hola, soy <span className="text-primary">Diana Sofia</span>
           </h1>
-          
+
           <h2 className="text-2xl md:text-3xl font-medium text-foreground/70 mb-8">
             Desarrolladora Frontend
           </h2>
-          
+
           <p className="text-lg text-foreground/60 mb-10 max-w-lg leading-relaxed">
-            Especializada en crear experiencias digitales modernas, elegantes y altamente funcionales. 
-            Me apasiona transformar ideas complejas en interfaces intuitivas.
+            Especializada en crear experiencias digitales modernas, elegantes y
+            altamente funcionales. Me apasiona transformar ideas complejas en
+            interfaces intuitivas.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -46,7 +50,7 @@ export default function Hero() {
             >
               Contáctame <Mail size={18} />
             </motion.a>
-            
+
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -65,11 +69,10 @@ export default function Hero() {
           className="relative"
         >
           <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 bg-surface relative z-10">
-            <img 
-              src="https://picsum.photos/seed/developer/800/800" 
-              alt="Diana Sofia" 
+            <img
+              src="/assets/diana-avatar.png"
+              alt="Diana Sofia"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              referrerPolicy="no-referrer"
             />
           </div>
           {/* Decorative elements */}
