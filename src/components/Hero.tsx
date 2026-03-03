@@ -70,7 +70,7 @@ export default function Hero() {
         >
           <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 bg-surface relative z-10">
             <img
-              src="../assets/diana-avatar.png"
+              src="./assets/diana-avatar.png"
               alt="Diana Sofia"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
